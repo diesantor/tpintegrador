@@ -80,7 +80,7 @@
             <div class="row ">
 
                     <div class="col-md-12 ">
-                        <div class="card text-bg-dark">
+                        <div class="card text-bg-dark rounded-0">
                             <img src="img/ba1.jpg" class="img-fluid" style="filter: brightness(50%)" alt="...">
                             
                         
@@ -126,17 +126,10 @@
                     <div class="card " style="width: 18rem;">
                         <img src="img/steve.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                                
-                            <!-- <button type="button " class="btn btn-warning">
-                                <span class="badge badge-warning">JavaScript</span>
-                            </button>
-
-                            <button type="button" class="btn btn-info">
-                                <span class="badge badge-info">React</span>
-                            </button> -->
-
-
-
+                            <h5 class="text-start">
+                                <span class="badge text-bg-warning">JavaScript</span>
+                                <span class="badge text-bg-primary">React</span>
+                            </h5> 
                             <h5 class="card-title">Steve Jobs</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsa doloremque aut illum tempora delectus quidem fuga officia accusamus nisi eius, iure nesciunt dolor est, sit voluptatem quaerat architecto. Quae?</p>
                         </div>
@@ -148,7 +141,12 @@
                     <div class="card" style="width: 18rem;">
                         <img src="img/bill.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
+                            <h5 class="text-start">
+                                <span class="badge text-bg-warning">JavaScript</span>
+                                <span class="badge text-bg-primary">React</span>
+                            </h5>   
                             <h5 class="card-title">Bill Gates</h5>
+                              
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsa doloremque aut illum tempora delectus quidem fuga officia accusamus nisi eius, iure nesciunt dolor est, sit voluptatem quaerat architecto. Quae?</p>
                         </div>
                     </div>
@@ -159,7 +157,12 @@
                     <div class="card" style="width: 18rem;">
                         <img src="img/ada.jpeg" class="card-img-top " alt="...">
                         <div class="card-body">
+                            <h5 class="text-start">
+                                <span class="badge text-bg-secondary">Negocios</span>
+                                <span class="badge text-bg-danger">Startups</span>
+                            </h5>  
                             <h5 class="card-title">Ada Lovelace</h5>
+                            
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsa doloremque aut illum tempora delectus quidem fuga officia accusamus nisi eius, iure nesciunt dolor est, sit voluptatem quaerat architecto. Quae?</p>
                         </div>
                     </div>
@@ -176,16 +179,17 @@
         <!-- IMAGEN HONOLULU -->
         <div class="container">
 
-            <div class="row m-2">
+            <div class="row mt-2">
+                
                 <div class="col-md-6">
-                    <img class="img-fluid" src="img/honolulu.jpg" alt="">
+                    <img class="img-fluid" src="img/honolulu.jpg" alt="imagen de playa">
                 </div>
                 
                 <div class="col-md-6 text-white" style="background-color: #33454e;">
                     
                         
                             <h5 class=""> <strong>BS AS - Octubre</strong> </h5>
-                            <p class="">
+                            <p class="text-justify">
                                 Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos, Honolulu es la más surea de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidad que cubre toda la ciudad(aproximadamente 600 km2 de superficie).
                             </p>
                           
@@ -205,7 +209,7 @@
                 <div class="col-md-12 text-center">
                     <h6>CONVIÉRTETE EN UN</h6>
                     <h2>ORADOR</h2>
-                    <h6>Anótate com oorador para dar una charla ignite. Cuentanos de que quieres hablar!</h6>
+                    <h6>Anótate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</h6>
                 </div>
                         
                     
@@ -233,11 +237,14 @@
                       
                 </div>
             
-                <div class="col-md-12 m-3">
+                <div class="col-md-12 mt-3">
                     <div class="form-floating justify-content-center d-flex">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height:100px">  </textarea>
                         <label for="floatingTextarea">Sobre que quieres hablar?</label>
-                      </div>
+                    </div>
+                    <div class="d-grid gap-2 mt-3">
+                        <button class="btn btn-warning" type="button">Enviar</button>
+                    </div>
                 </div>
 
             </div>
